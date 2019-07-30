@@ -1,0 +1,238 @@
+/**头部最上面*/
+#top {
+    background: #F3F1F4;
+}
+
+#top .top-head {
+    width: 1000px;
+    margin: auto;
+    height: 116px;
+    line-height: 116px;
+}
+
+#top .top-head a {
+    display: block;
+    float: left;
+}
+
+#top .top-head button {
+    display: block;
+    float: left;
+    height: 30px;
+    width: 150px;
+    line-height: 30px;
+    border: 1px solid #000;
+    margin-left: 70px;
+    margin-top: 60px;
+    background: #555555;
+    border-radius: 30px;
+    font-size: 16px;
+    color: white;
+}
+
+/**头部下边*/
+#top .top-content {
+    width: 1100px;
+    margin: auto;
+    font-size: 16px;
+    font-weight: inherit;
+
+}
+
+#top .top-content .left {
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    width: 460px;
+    border: 1px solid #a49e9e;
+    margin-left: 40px;
+    margin-right: 20px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+#person tr td {
+    padding-bottom: 20px;
+}
+
+#top .top-content .start {
+    font-size: 14px;
+}
+
+#top .top-content .title {
+    font-size: 12px;
+    line-height: 60px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+#top .top-content .input input {
+    width: 250px;
+    height: 38px;
+    margin-left: 20px;
+    border: 1px solid #a49e9e;
+    border-radius: 15px;
+}
+
+#submit {
+    background: #E70012;
+    color: white;
+}
+
+#checkImg a {
+    display: block;
+    float: left;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+/**头部下边的右边*/
+.top-content .right {
+    width: 500px;
+    height: 605px;
+
+}
+
+.top-content .right img {
+    margin-left: 100px;
+}
+
+/**底部buttom*/
+.ft {
+    width: 100%;
+    margin: auto;
+    background: url(./../imgs/ftw_bg.png) repeat-x left top;
+    background-color: #f7f7f7;
+    padding: 25px 0 50px 0;
+}
+
+.ft .top {
+    width: 1000px;
+    margin: auto;
+}
+
+.ft .top .li {
+    float: left;
+    width: 185px;
+    height: 130px;
+    border-right: 1px solid #e9e1e8;
+}
+
+.ft .top .title {
+    width: 95px;
+    height: 26px;
+    line-height: 26px;
+    padding-left: 30px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #c95c61;
+    background: url(./../imgs/ft_h2.png) no-repeat 0px 0px;
+}
+
+.ft .top .ul_content {
+    margin-left: 60px;
+}
+
+.ft .top .ul_content li {
+    padding-left: 8px;
+    background: url(./../imgs/ft_li.png) no-repeat left center;
+    line-height: 22px;
+}
+
+.ft .top .ft_contact {
+    float: left;
+    width: 252px;
+    height: 100%;
+    border-left: 1px solid #fdfdfd;
+    background: url(./../imgs/ft_contact_bg.png) no-repeat center 35px;
+    color: #999;
+}
+
+.ft .top .ft_contact h2 {
+    font-size: 18px;
+    color: #c95c61;
+    text-align: center;
+    font-weight: bold;
+    background: url(./../imgs/ft_h2.png) no-repeat 18px -200px;
+}
+
+.ft .top .ft_contact .phone {
+
+    width: 158px;
+    height: 28px;
+    line-height: 28px;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding-top: 25px;
+    margin-bottom: 5px;
+    background-image: url(./../imgs//css_spirit.png);
+    background-repeat: no-repeat;
+    background-position: 0px -154px;
+}
+
+
+.ft_contact .qq_line {
+    font-size: 14px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.ft_contact .time {
+    text-align: center;
+    font-size: 12px;
+    line-height: 60px;
+}
+
+.ft .top .ft_contact h2 span {
+    font-size: 14px;
+}
+
+.ft .center {
+    width: 100%;
+    height: 36px;
+    background: #CF1B1B;
+
+}
+
+.ft .center ul {
+    width: 480px;
+    margin: auto;
+}
+
+.ft .center span {
+    display: block;
+    float: left;
+    font-size: 14px;
+    color: white;
+    line-height: 36px;
+    padding-right: 10px;
+}
+
+.ft .center ul li {
+    float: left;
+    height: 36px;
+    line-height: 36px;
+    padding-right: 20px;
+}
+
+.ft .center ul li a {
+    font-size: 14px;
+    color: white;
+}
+
+.ft .buttom {
+    width: 500px;
+    margin: auto;
+}
+
+.ft .buttom .content p {
+    padding: 20px 0px 20px 0px;
+}
+
+.ft .buttom .content a {
+    display: inline-block;
+    padding-left: 10px;
+}

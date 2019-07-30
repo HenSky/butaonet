@@ -1,0 +1,557 @@
+a:hover {
+    color: red;
+}
+
+/**右边购物车*/
+.left_fiexd {
+    position: fixed;
+    height: 100%;
+    width: 300px;
+    right: -265px;
+    z-index: 200;
+
+}
+
+.left_fiexd .forcenter {
+    position: absolute;
+    top: 20%;
+    transform: translate(0, -20%);
+}
+
+.left_fiexd .left {
+    height: 100%;
+    width: 35px;
+    background: #000;
+}
+
+.left_fiexd .left a {
+    color: white;
+    font-size: 14px;
+    display: block;
+    width: 30px;
+    margin-left: 2px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.left_fiexd .left a:hover {
+    background: #E70012;
+}
+
+.left_fiexd .left a span {
+    padding-left: 4px;
+}
+
+#num {
+    width: 25px;
+    height: 25px;
+    background: #E70012;
+    border: 1px solid #E70012;
+    border-radius: 25px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.left_fiexd .right {
+    height: 100%;
+    width: 265px;
+    background: white;
+
+}
+
+
+/*头部 topshopwrap*/
+.topshopwrap {
+    width: 1000px;
+    margin: auto;
+    height: 26px;
+    line-height: 26px;
+}
+
+.topshopwrap .topleft li {
+    float: left;
+    margin-left: 10px;
+}
+
+.topshopwrap .topleft .collect {
+    display: inline-block;
+    padding-left: 22px;
+    background: url(./../imgs/collect.png) no-repeat left top;
+}
+
+#qk_login b,
+#follow b,
+#mybutao b {
+    display: inline-block;
+    padding-left: 12px;
+    background: url(./../imgs/icon_top.png) no-repeat 16px 11px;
+}
+
+#qk_login .hover,
+#follow .hover,
+#mybutao .hover {
+    display: inline-block;
+    padding-left: 12px;
+    background: url(./../imgs/icon_top.png) no-repeat 10px -155px;
+}
+
+#qk_login dl {
+    position: relative;
+}
+
+#qk_login dl dd {
+    position: absolute;
+    top: 28px;
+    right: 1px;
+    width: 113px;
+    padding: 1px;
+    background-color: #FFF;
+    border: 1px solid #ccc;
+    display: none;
+}
+
+
+
+.topshop .qklogin dd li {
+    float: none;
+    margin: 0;
+    width: 113px;
+    height: 26px;
+    line-height: 26px;
+    border-bottom: 1px solid #ccc;
+    background-color: #f0f0f0;
+
+}
+
+.topshop .qklogin dd li img {
+    margin-left: 10px;
+}
+
+.topshop .follow dd {
+    position: absolute;
+    top: 27px;
+    right: 4px;
+    z-index: 4850;
+    width: 90px;
+    padding: 1px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    display: none;
+}
+
+
+#mybutao dl dd {
+    position: absolute;
+    top: 28px;
+    right: 1px;
+    width: 113px;
+    padding: 1px;
+    background-color: #FFF;
+    border: 1px solid #ccc;
+    display: none;
+}
+
+.topshop .mybutao dd li {
+    float: none;
+    margin: 0;
+    padding-left: 20px;
+    height: 26px;
+    line-height: 26px;
+    border-bottom: 1px solid #ccc;
+    background-color: #f0f0f0;
+}
+
+
+.topshop .follow dd li {
+    float: none;
+    margin: 0;
+    width: 90px;
+    height: 26px;
+    line-height: 26px;
+    border-bottom: 1px solid #ccc;
+    background-color: #f0f0f0;
+}
+
+.topshop .follow dd li img {
+    margin-left: 10px;
+}
+
+
+#follow dl {
+    position: relative;
+}
+
+#follow dl dd {
+    position: absolute;
+}
+
+#mybutao dl {
+    position: relative;
+}
+
+#mybutao dl dd {
+    position: absolute;
+}
+
+.topshopwrap .topright li {
+    float: left;
+    margin-left: 10px;
+}
+
+/*头部 shopheader*/
+.shopheader {
+    width: 1000px;
+    margin: auto;
+    margin-top: 25px;
+}
+
+.shopheader .center .center_inp {
+    height: 34px;
+    border: 2px #c20525 solid;
+}
+
+.shopheader .center .center_inp .left {
+    height: 30px;
+    width: 31px;
+    background: url(./../imgs/05_search_bg.png) no-repeat -2px -2px;
+    margin-right: 4px;
+}
+
+.shopheader .center .center_inp .center {
+    height: 30px;
+    width: 342px;
+}
+
+.shopheader .center .center_inp .right a {
+    display: block;
+    height: 30px;
+    width: 80px;
+    background: url(./../imgs/05_search_bg.png) no-repeat -37px -2px;
+}
+
+.shopheader .center .center_ul ul li {
+    float: left;
+    margin-left: 10px;
+
+}
+
+.shopheader .center .center_ul ul li a {
+    color: #999;
+
+}
+
+/**头部shopnavwrap*/
+.shopnavwrap {
+    width: 100%;
+    background: #CF1B1B;
+}
+
+.shopnavwrap .content {
+    width: 1000px;
+    margin: auto;
+    height: 40px;
+}
+
+.shopnavwrap .content ul span {
+    display: block;
+    float: left;
+    height: 40px;
+    font-size: 18px;
+    line-height: 40px;
+    padding: 0 24px 0 12px;
+    color: white;
+}
+
+.shopnavwrap .content ul li {
+    float: left;
+    font-size: 18px;
+    height: 40px;
+    line-height: 40px;
+    width: 82px;
+    text-align: center;
+}
+
+.shopnavwrap .content ul li a {
+    color: white;
+}
+
+
+
+/**底部TOP*/
+.foot {
+    width: 1000px;
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+.tiao {
+    background: url(./../imgs/index_124.jpg) no-repeat center bottom;
+    height: 19px;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    font-size: 18px;
+}
+
+.footCon {
+    width: 980px;
+    margin: auto;
+}
+
+.footCon li {
+    width: 142px;
+    background: url(./../imgs/index_138.jpg) no-repeat right bottom;
+    height: 160px;
+    float: left;
+    margin: 0 10px;
+}
+
+.footCon a {
+
+    display: block;
+    width: 65px;
+    height: 24px;
+    text-align: center;
+    float: left;
+    color: #5f5e5f;
+}
+
+.footCon li p {
+    text-align: center;
+    font-family: "微软雅黑";
+    font-weight: bold;
+}
+
+/**底部buttom*/
+.ft {
+    width: 100%;
+    margin: auto;
+    background: url(./../imgs/ftw_bg.png) repeat-x left top;
+    background-color: #f7f7f7;
+    padding: 25px 0 50px 0;
+}
+
+.ft .top {
+    width: 1000px;
+    margin: auto;
+}
+
+.ft .top .li {
+    float: left;
+    width: 185px;
+    height: 130px;
+    border-right: 1px solid #e9e1e8;
+}
+
+.ft .top .title {
+    width: 95px;
+    height: 26px;
+    line-height: 26px;
+    padding-left: 30px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #c95c61;
+    background: url(./../imgs/ft_h2.png) no-repeat 0px 0px;
+}
+
+.ft .top .ul_content {
+    margin-left: 60px;
+}
+
+.ft .top .ul_content li {
+    padding-left: 8px;
+    background: url(./../imgs/ft_li.png) no-repeat left center;
+    line-height: 22px;
+}
+
+.ft .top .ft_contact {
+    float: left;
+    width: 252px;
+    height: 100%;
+    border-left: 1px solid #fdfdfd;
+    background: url(./../imgs/ft_contact_bg.png) no-repeat center 35px;
+    color: #999;
+}
+
+.ft .top .ft_contact h2 {
+    font-size: 18px;
+    color: #c95c61;
+    text-align: center;
+    font-weight: bold;
+    background: url(./../imgs/ft_h2.png) no-repeat 18px -200px;
+}
+
+.ft .top .ft_contact .phone {
+
+    width: 158px;
+    height: 28px;
+    line-height: 28px;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding-top: 25px;
+    margin-bottom: 5px;
+    background-image: url(./../imgs//css_spirit.png);
+    background-repeat: no-repeat;
+    background-position: 0px -154px;
+}
+
+
+.ft_contact .qq_line {
+    font-size: 14px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.ft_contact .time {
+    text-align: center;
+    font-size: 12px;
+    line-height: 60px;
+}
+
+.ft .top .ft_contact h2 span {
+    font-size: 14px;
+}
+
+.ft .center {
+    width: 100%;
+    height: 36px;
+    background: #CF1B1B;
+
+}
+
+.ft .center ul {
+    width: 480px;
+    margin: auto;
+}
+
+.ft .center span {
+    display: block;
+    float: left;
+    font-size: 14px;
+    color: white;
+    line-height: 36px;
+    padding-right: 10px;
+}
+
+.ft .center ul li {
+    float: left;
+    height: 36px;
+    line-height: 36px;
+    padding-right: 20px;
+}
+
+.ft .center ul li a {
+    font-size: 14px;
+    color: white;
+}
+
+.ft .buttom {
+    width: 500px;
+    margin: auto;
+}
+
+.ft .buttom .content p {
+    padding: 20px 0px 20px 0px;
+}
+
+.ft .buttom .content a {
+    display: inline-block;
+    padding-left: 10px;
+}
+
+/**购物表单车*/
+#mycar {
+    background: #F7F7F7;
+}
+
+.myCarCon {
+    width: 1000px;
+    margin: auto;
+    background: white;
+
+}
+
+.myCarCon table {
+    width: 100%;
+
+    border: 1px solid #e6e6e6;
+}
+
+.myCarCon table tr td {
+    border: 1px solid #e6e6e6;
+    text-align: center;
+}
+
+
+
+.myCarCon table .first {
+    width: 510px;
+    height: 84px;
+}
+
+.myCarCon table .firstTop {
+    width: 510px;
+    height: 32px;
+}
+
+.myCarCon table .title {
+    background: #F7F7F7;
+}
+
+.myCarCon .btn {
+    width: 100%;
+    text-align: right;
+}
+
+.myCarCon .btn .btn1 {
+    width: 140px;
+    height: 38px;
+    color: red;
+    font-size: 20px;
+    background: #FFFAFA;
+    border: 1px solid red;
+    border-radius: 10px;
+}
+
+.myCarCon .btn .btn2 {
+    width: 140px;
+    height: 38px;
+    color: white;
+    font-size: 20px;
+    background: red;
+    border: 1px solid red;
+    border-radius: 10px;
+}
+
+
+#numBox {
+    width: 143px;
+    height: 50px;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+#numBox span {
+
+    float: left;
+    width: 40px;
+    height: 40px;
+    background: #F7F7F7;
+    line-height: 40px;
+    text-align: center;
+    font-size: 16px;
+}
+
+#numBox input {
+    float: left;
+    width: 60px;
+    height: 40px;
+    border: 1px solid #e6e6e6;
+    line-height: 40px;
+    text-align: center;
+    font-size: 16px;
+}
